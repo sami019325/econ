@@ -5,7 +5,7 @@ import Navbar from './Navbar';
 
 const RoutingPage = () => {
     return (
-        <div>
+        <div className='w-12/12'>
             <Navbar></Navbar>
             <Outlet></Outlet>
             <Footer></Footer>

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
     const [isNavTrue, setIsNavTrue] = useState(false)
     return (
-        <div className="bg-base-100 flex justify-between w-12/12">
+        <div className="bg-base-100 flex justify-between w-full">
             {/* dropdown-menu for mobile devices */}
             <div className="dropdown w-36  md:hidden">
                 <div className='flex '>
@@ -18,7 +18,7 @@ const Navbar = () => {
                     <li><a>About</a></li>
                 </ul>
             </div>
-            <div className='w-full'>
+            <div className=''>
                 <Link to='/' className="btn btn-ghost normal-case text-xl font-bold">Econs</Link>
             </div>
             <div className='hidden md:flex gap-3 items-center justify-center font-bold'>
