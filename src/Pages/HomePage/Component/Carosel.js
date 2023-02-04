@@ -14,6 +14,7 @@ const Carosel = () => {
                     <small className='text-white'>Buy products at a reasonable price</small>
                     <h1 className='text-5xl text-white font-bold'>Get modern and high quality products</h1>
                     <p className='text-xl'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem animi maiores odit labore ab magnam deserunt incidunt, esse suscipit iure est facilis amet obcaecati magni tempore fugiat earum nostrum officiis.</p>
+                    <button className='btn w-6/12'>BUY NOW</button>
                 </div>
             </div>
 
@@ -24,6 +25,7 @@ const Carosel = () => {
                 <div className='w-full lg:w-6/12 p-5 flex flex-col justify-center items-center gap-3'>
                     <h1 className='text-5xl text-white font-bold'>Get 50% off</h1>
                     <Offer></Offer>
+                    <button className='btn w-full'>BUY NOW</button>
                 </div>
             </div>
         </>
